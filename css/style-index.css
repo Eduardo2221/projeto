@@ -1,0 +1,81 @@
+
+main section {
+    margin: 0 auto;
+    background-color: whitesmoke;
+    width: 100%;
+    /* height: 900px; */
+
+}
+
+main section h2 {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    font-size: 32px;
+}
+
+article {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 900PX;
+}
+
+article ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 60px;
+    margin-bottom: 20px;
+}
+
+article ul li {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 10px 28px;
+}
+
+article ul li img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+article ul li h3, article ul li img {
+    text-align: center;
+}
+
+article p {
+    text-align: center;
+}
+
+article a {
+    color: #000000;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+article a:hover{
+    background: #00000060;
+    color: #ffffff;
+    /* font-size: 20px; */
+    /* transform: scale(1.3); */
+}
+
+.formulario01{
+    display: block;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.enviar{
+    width: 0 auto;
+    margin-top: 20px auto;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    transform: perspective(20deg);
+    cursor: pointer;
+    transition: 1s all;
+}
